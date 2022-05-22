@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/stylesheet.css" rel="stylesheet">
+        
+        <title>Praktikum PKW 2022</title>
+    </head>
+    <body>
+        <h1>SURVEY MAIN TARGET ON GAMING</h1>
+        <form action="#" class="container">
+            <h2><label for="nama">Nama</label>
+                <br>
+                <input type="text" name="nama" id="nama"/>
+                <br/>
+                <label for="tanggal">Tanggal Lahir</label>
+                <br>
+                <input type="text" name="tanggal" id="tanggal"/>
+                <br/>
+                <label for="jeniskelamin">Jenis Kelamin</label>
+                <br>
+                <p><input type="radio" name="jeniskelamin" id="jeniskelamin" value="laki-laki"/>Laki-laki</p> 
+                <p><input type="radio" name="jeniskelamin" id="jeniskelamin" value="perempuan"/>Perempuan</p>
+                </br>
+                <label for="genre">Genre Game Favorit</label>
+                <br>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>FPS</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Adventure</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Rhythm</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Simulator</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Horror</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>MOBA</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Puzzle</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Platformer</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>2D</p>
+                <p><input type="checkbox" name="genre" id="genre" value="genre"/>Metroidvania</p>
+                <br/>
+                <label for="platform">Platform yang sering anda gunakan</label>
+                <br>
+                <p><input type="radio" name="platform" id="platform" value="pc"/>PC</p> 
+                <p><input type="radio" name="platform" id="platform" value="console"/>Console</p>
+                <p><input type="radio" name="platform" id="platform" value="other"/>Game port lainnya</p>
+                </br>
+
+                <label for="alamat">Sebutkan 3 game Favorit anda</label>
+                <br>
+                <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea>
+                </br>
+            </h2>
+
+            <input type="button" value="kirim" onclick="tampilData()"/>
+        </form>
+    </body>
+
+
+<script src="script.js"></script>
+</html>
